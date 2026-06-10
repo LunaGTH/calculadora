@@ -1,5 +1,6 @@
 name: Python CI
 
+
 on:
   push:
     branches: [ main ]
@@ -27,3 +28,7 @@ jobs:
     - name: Ejecutar aplicación
       run: |
         python calculator.py
+
+    - name: Ejecutar aplicación
+      run: |
+        python app.py
